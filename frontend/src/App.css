@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f4f6f9;
+}
+
+/* Navigation */
+
+nav {
+  background-color: #003366;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: gold;
+}
+
+/* Main Content */
+
+div {
+  padding: 15px;
+}
+
+/* Headings */
+
+h1 {
+  color: #003366;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #003366;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Forms */
+
+input,
+select {
+  width: 100%;
+  max-width: 500px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #bdbdbd;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #003366;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0055a5;
+}
+
+/* Tables */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  margin-top: 20px;
+}
+
+table th {
+  background-color: #003366;
+  color: white;
+  padding: 12px;
+}
+
+table td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #dddddd;
+}
+
+/* Dashboard Status */
+
+.low-stock {
+  color: red;
+  font-weight: bold;
+}
+
+.available {
+  color: green;
+  font-weight: bold;
+}
+
+/* Login */
+
+.login-container {
+  width: 400px;
+  margin: 80px auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.subtitle {
+  color: #777;
+  margin-bottom: 20px;
+}
